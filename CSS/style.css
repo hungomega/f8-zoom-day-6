@@ -1,0 +1,112 @@
+.page {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(246, 232, 208);
+    
+}
+.sidebar h2,
+.career-goals {
+    line-height: 1.6;
+}
+
+/* main content */
+body {
+    background-color: #e6e6e6;
+    font-family: sans-serif;
+}
+/* .heading3 {
+    text-align: justify;
+}    
+.heading3 span {
+    display: inline-block;
+    width: 100%;
+} */
+
+.cv h1,
+.cv p {
+    text-align: center;
+}
+.cv {
+    max-width: 700px;
+    /* min-height: 100px; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    background: white;
+    padding: 50px 100px 30px 100px;
+}
+. div p {
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+div h1 {
+    font-size: 32px;
+    font-weight: 600;
+}
+div h2 {
+    font-size: 24px;
+    font-weight: 600;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+.cv ul {
+    /* margin: 20px 25px; */
+    list-style-type: disc;
+    padding-left: 35px;
+}
+.cv li {
+    margin: 10px 0;
+    text-align: left;
+    line-height: 1.5;
+}
+
+/* .full-width
+{
+    display: inline-block;
+    width: 100%;
+} */
+.heading {
+    /* cho các phần tử con nằm trên cùng một hàng; */
+    display: flex;
+    /* đẩy 1 cái sang trái, 1 cái sang phải */
+    justify-content: space-between;
+    /* căn giữa theo chiều dọc */
+    align-items: center;
+}
+hr {
+    border: 2px solid #a49f9f;
+}
+/* chỉnh dấu chấm ở thẻ li nhìn to và đậm hơn */
+.cv li::marker {
+    font-size: 24px;
+}
+
+.container {
+    display: flex;
+
+    margin: 30px 60px;   
+}
+/* sidebar */
+.sidebar {
+    width: 300px;
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+}
+.avatar {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+      
+    display: block;
+    margin: 0 auto;
+}
+.personal-info,
+.skills,
+.certificates
+ {
+    /* padding-bottom: 20px;
+    margin-bottom: 20px; */
+    border-bottom: 1px solid #7f8c8d;
+}
